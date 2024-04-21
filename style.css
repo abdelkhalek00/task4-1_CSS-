@@ -1,0 +1,132 @@
+.contenar{
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.parent1{
+    width: 55%;
+    height: 50vh;
+    background-color: rgb(251, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px red;
+    margin: 15px 15px 35px 15px;
+}
+.p1_child1{
+    width: 65%;
+    height: 52%;
+    background-color: rgba(221, 221, 221, 0.689);
+    border: solid 5px red;
+    color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.parent2{
+    width: 56%;
+    height: 30vh;
+    margin-bottom: 30px;
+    /* background-color: aqua; */
+    /* border-radius: 20px 20px 20px 20px; */
+}
+.p2_child1{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(144, 21, 185);
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.p2_child2{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(117, 28, 201);
+    border-radius: 0 0 20px 20px;
+}
+.parent3{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.p3_child1{
+    width: 25%;
+    height: 80%;
+    /* background-color: aqua; */
+    border: 20px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.child1_1{
+    width: 91%;
+    height: 85%;
+    border: 18px solid red;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+.p3_child2{
+    width: 25%;
+    height: 80%;
+    /* background-color: blueviolet; */
+    border: 20px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child2_1{
+    width: 91%;
+    height: 85%;
+    border-right: 18px solid green;
+    border-left: 18px solid green;
+    border-top:  18px solid blue;
+    border-bottom: 18px solid blue;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+.p3_child3{
+    width: 25%;
+    height: 80%;
+    background-color: black;
+    border: 20px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child3_1{
+    width: 91%;
+    height: 85%;
+    border-right: 18px dashed green;
+    border-left: 18px dashed yellow;
+    border-top:  18px dashed red;
+    border-bottom: 18px dashed blue;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+}
+h2{
+    font-size: 40px;
+}
